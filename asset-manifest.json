@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/codelit-react/static/css/main.8f308011.css",
+    "main.js": "/codelit-react/static/js/main.1dff2882.js",
+    "static/js/453.80b71f9b.chunk.js": "/codelit-react/static/js/453.80b71f9b.chunk.js",
+    "static/media/reel.mp4": "/codelit-react/static/media/reel.52b1b2e0011ac256ca3f.mp4",
+    "static/media/employee.jpg": "/codelit-react/static/media/employee.0a7bbb168fb532518922.jpg",
+    "static/media/High_fi.png": "/codelit-react/static/media/High_fi.0d32e171e1bf068db242.png",
+    "static/media/about-image.jpg": "/codelit-react/static/media/about-image.1f12f4e44a7c7c5b91d0.jpg",
+    "static/media/our-story-image.jpg": "/codelit-react/static/media/our-story-image.a9cc809b185693635dec.jpg",
+    "static/media/persona1.png": "/codelit-react/static/media/persona1.4e778ee5f17b0b8c5f4e.png",
+    "static/media/Complete_main.png": "/codelit-react/static/media/Complete_main.19d0b03a96ef184133cc.png",
+    "static/media/persona2.png": "/codelit-react/static/media/persona2.e58f808cef9cfcbc6826.png",
+    "static/media/high_fi.png": "/codelit-react/static/media/high_fi.0daf58668a466961e120.png",
+    "static/media/Project.png": "/codelit-react/static/media/Project.c0db0f4313d45bdb6d83.png",
+    "static/media/projects.png": "/codelit-react/static/media/projects.c7c1f9ed25bc23659f46.png",
+    "static/media/Low_fi.png": "/codelit-react/static/media/Low_fi.bc729339ba8cea203357.png",
+    "static/media/project-codelit.png": "/codelit-react/static/media/project-codelit.c64cd35feb16a6030c31.png",
+    "static/media/feedbick-project.png": "/codelit-react/static/media/feedbick-project.a225d0a267cbfdec24e6.png",
+    "static/media/Codelit_Logo.png": "/codelit-react/static/media/Codelit_Logo.c1af65492acbd960d503.png",
+    "static/media/Process-laptop.svg": "/codelit-react/static/media/Process-laptop.410317ebd22c618dd6b3ddb9cd2bd8ea.svg",
+    "static/media/Process-phone.svg": "/codelit-react/static/media/Process-phone.9b1b7bd2b5079834b4b9e57b6f796931.svg",
+    "index.html": "/codelit-react/index.html",
+    "main.8f308011.css.map": "/codelit-react/static/css/main.8f308011.css.map",
+    "main.1dff2882.js.map": "/codelit-react/static/js/main.1dff2882.js.map",
+    "453.80b71f9b.chunk.js.map": "/codelit-react/static/js/453.80b71f9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f308011.css",
+    "static/js/main.1dff2882.js"
+  ]
+}
