@@ -1,0 +1,236 @@
+#Main {
+  width: 100%;
+  height: auto;
+}
+
+.headingBox {
+  width: 100%;
+  margin: 1rem 0 var(--m-max);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topHeading {
+  font-size: clamp(4rem, 11vw, 12rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  color: var(--primary);
+  font-family: var(--secondayfont);
+  display: inline-block;
+}
+
+.topPera {
+  font-size: clamp(1rem, 2vw, 2.2rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--black);
+  font-weight: 500;
+  display: inline-block;
+}
+
+/* row section */
+
+.main__row {
+  display: grid;
+  width: 100%;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: var(--m-max);
+}
+
+.main__col {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main__col:first-child {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.main__col-color-pera {
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.main__col-heading {
+  color: var(--black);
+  font-family: var(--secondayfont);
+  font-weight: 700;
+  font-size: clamp(1rem, 4vw, 3.2rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.main__col-pera {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main__col:last-child > .main__col-pera {
+  margin-bottom: 6rem;
+}
+
+.main__col:last-child {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* video container section starts */
+
+.video-container {
+  position: relative;
+  width: fit-content;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-container video {
+  width: clamp(350px, 10vw, 450px);
+  border-radius: 16px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  background-color: rgb(3, 3, 3);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary); /* orange */
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.play-button::after {
+  content: "";
+  position: absolute;
+  border: 4px solid var(--primary); /* orange ring */
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  animation: pulse-ring 1.5s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  70% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* video container section ends */
+
+@media (max-width: 1200px) {
+  section {
+    padding: 2rem var(--pd-mid);
+  }
+}
+
+@media (max-width: 960px) {
+  .main__row {
+    grid-gap: 2rem;
+    grid-template-columns: none;
+    grid-template-rows: auto auto;
+  }
+
+  .main__col:first-child {
+    order: 2;
+    justify-content: flex-start;
+  }
+
+  .reelText {
+    display: none;
+    visibility: hidden;
+  }
+
+  .main__col-color-pera {
+    font-size: 1.1rem;
+  }
+
+  .main__col-heading {
+    font-size: clamp(2.2rem, 5vw, 2.5rem);
+    margin-bottom: 3rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
+  .main__col-pera {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .main__col:last-child > .main__col-pera {
+    margin-bottom: 4rem;
+  }
+
+  .main__col:last-child {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main__col-heading {
+    font-size: 2rem;
+  }
+
+  .headingBox {
+    margin: 1rem 0 var(--m-max);
+    height: 70vh;
+  }
+
+  section {
+    padding: 2rem var(--pd-min);
+  }
+
+  .video-container {
+    width: 100%;
+  }
+
+  .video-container video {
+    width: 100%;
+  }
+}

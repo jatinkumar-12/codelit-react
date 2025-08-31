@@ -1,0 +1,131 @@
+/* work css */
+
+.work {
+  width: 70rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3rem auto 1rem;
+  padding: 1rem 0;
+}
+
+.work__projects {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 5rem auto;
+}
+
+.work__project {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin: 0 auto 5rem;
+}
+
+.work__project:nth-child(2) > .work__project-sm:nth-child(1) {
+  order: 2;
+}
+.work__project:nth-child(2) > .work__project-sm:nth-child(2) {
+  order: 1;
+}
+
+.work__project-sm {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.work__project-sm h2 {
+  font-size: 2rem;
+  font-family: var(--secondayfont);
+  margin-bottom: var(--m-min);
+  color: var(--black);
+  text-transform: capitalize;
+}
+
+.work__project-sm p {
+  font-size: 1.2rem;
+  font-family: var(--secondayfont);
+  color: var(--black);
+  margin-bottom: var(--m-min);
+}
+
+.work__project-sm h4 {
+  font-size: clamp(1.2rem, 4vh, 1.4rem);
+  font-family: var(--secondayfont);
+  margin-bottom: var(--m-min);
+  color: var(--black);
+}
+
+.work__project-sm h4 span {
+  color: var(--primary);
+  margin-right: 1rem;
+}
+
+.work__project-sm:nth-child(1) {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.work__project-sm-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .work {
+    padding: 2rem var(--pd-mid);
+  }
+
+  .work {
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .work__project-sm:nth-child(1) {
+    height: 20rem;
+  }
+
+  .work__project-sm h2 {
+    margin-bottom: var(--m-min-sm);
+  }
+
+  .work__project-sm p {
+    margin-bottom: var(--m-min-sm);
+  }
+
+  .work__project-sm h4 {
+    margin-bottom: var(--m-min-sm);
+  }
+
+  .work__project-sm button {
+    margin-bottom: var(--m-min-sm);
+  }
+
+  .work__project {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto 1fr;
+    grid-gap: 2rem;
+    margin: 0 auto 3rem;
+  }
+
+  .work__project:nth-child(2) > .work__project-sm:nth-child(1) {
+    order: 1;
+  }
+  .work__project:nth-child(2) > .work__project-sm:nth-child(2) {
+    order: 2;
+  }
+}
+@media (max-width: 540px) {
+  .work__project-sm:nth-child(1) {
+    height: auto;
+  }
+}
