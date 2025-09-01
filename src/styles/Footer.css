@@ -161,6 +161,10 @@
 }
 
 @media (max-width: 800px) {
+  .footer::before {
+    left: 4%;
+  }
+
   .footer__sections {
     grid-template-columns: auto auto;
   }

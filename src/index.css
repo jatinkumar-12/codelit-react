@@ -19,6 +19,7 @@
   --pd-max: 5.2rem;
   --pd-mid: 3.2rem;
   --pd-min: 2rem;
+  --pd-min-sm: 1rem;
 
   /* margin */
   --m-max: 5rem;
@@ -178,7 +179,7 @@ section {
   }
 
   .page__heading {
-    font-size: clamp(2.4rem, 6vw, 4rem);
+    font-size: clamp(2rem, 6vw, 4rem);
   }
 }
 

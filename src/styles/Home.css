@@ -14,7 +14,7 @@
 }
 
 .topHeading {
-  font-size: clamp(4rem, 11vw, 12rem);
+  font-size: clamp(3.8rem, 11vw, 12rem);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -223,7 +223,7 @@
   }
 
   section {
-    padding: 2rem var(--pd-min);
+    padding: 2rem var(--pd-min-sm);
   }
 
   .video-container {
