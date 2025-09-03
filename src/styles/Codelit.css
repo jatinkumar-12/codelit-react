@@ -371,7 +371,6 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 0.6rem 1rem !important;
     border-radius: 50px;
     border: 1px solid black;
     transition: all 0.4s ease;

@@ -125,6 +125,14 @@
   }
 }
 @media (max-width: 540px) {
+  .work__projects {
+    margin: 3rem auto;
+  }
+
+  .work__project {
+    grid-gap: 3rem;
+  }
+
   .work {
     padding: 2rem var(--pd-min-sm);
   }

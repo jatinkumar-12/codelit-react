@@ -1,7 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 export default function Footer() {
+  const scrollToTop = () => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  };
+
   return (
     <>
       <section className="footer" id="Footer">
@@ -47,7 +53,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="footerLinkBox sm-hide">
-            <a href="#Navbar" className="arrow-circle">
+            <a onClick={scrollToTop} className="arrow-circle">
               <span className="arrow-up">↑</span>
             </a>
           </div>
@@ -56,7 +62,7 @@ export default function Footer() {
         <div className="letsCollaborateSection">
           <h2 className="footerLinkHeading">Let's Collaborate</h2>
           <a href="/" className="footerlink">
-            email@codelit.in
+            vipinsingh@codelit.in
           </a>
         </div>
 

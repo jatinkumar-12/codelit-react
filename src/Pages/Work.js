@@ -29,18 +29,23 @@ export default function Work() {
             </div>
             <div className="work__project-sm">
               <div>
-                <h2>code was born from a simple yet powerful vision:</h2>
+                <h2>
+                  A branding website that reflects their core identity — modern,
+                  user-centric, and minimal.
+                </h2>
                 <p>
-                  To bridge the gap between academic learning and industries
-                  demands. we recognise that many tallented students struggels
-                  from transition from theroy to.
+                  Codelit is a creative tech company specializing in design,
+                  development, and education. The goal was to create a branding
+                  website that reflects their core identity — modern,
+                  user-centric, and minimal — while clearly communicating
+                  services and values.
                 </p>
                 <h4>
                   <span>Mission :</span> Frontend Development
                 </h4>
               </div>
               <Link to="/work/projectcodelit" className="Explore_btn">
-                Explore All Works
+                View Case Study
               </Link>
             </div>
           </div>
@@ -54,18 +59,21 @@ export default function Work() {
             </div>
             <div className="work__project-sm">
               <div>
-                <h2>code was born from a simple yet powerful vision:</h2>
+                <h2>
+                  A centralized platform for collecting and managing real-time
+                  user feedback.
+                </h2>
                 <p>
-                  To bridge the gap between academic learning and industries
-                  demands. we recognise that many tallented students struggels
-                  from transition from theroy to.
+                  The Feedbick Portal is a centralized platform for collecting
+                  and managing real-time user feedback from physical devices
+                  installed at workplaces and washrooms.
                 </p>
                 <h4>
                   <span>Mission :</span> Frontend Development
                 </h4>
               </div>
               <Link to="/work/projectfeedbick" className="Explore_btn">
-                Explore All Works
+                View Case Study
               </Link>
             </div>
           </div>

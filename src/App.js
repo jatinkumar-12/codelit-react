@@ -24,12 +24,10 @@ function App() {
         <Routes>
           {/* Routes WITHOUT scroll reset */}
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/codelit" element={<Codlit />} />
-
-          {/* Routes WITH scroll reset */}
           <Route element={<ScrollResetLayout />}>
+            <Route path="/work" element={<Work />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/codelit" element={<Codlit />} />
             <Route path="/work/projectcodelit" element={<Projectcodelit />} />
             <Route path="/work/projectfeedbick" element={<Projectfeedbick />} />
           </Route>

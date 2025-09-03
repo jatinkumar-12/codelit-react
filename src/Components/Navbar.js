@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" id="Navbar">
         {/* Logo */}
         <div className="logo">
           <img src={Logo} alt="Logo" /> {/* Replace with your logo */}
