@@ -16,7 +16,7 @@ import ProcessPhone from "../assets/projects/process/Process-phone.svg";
 export default function Projectfeedbick() {
   return (
     <>
-      <section>
+      <section className="sub-project_section">
         <div className="back-button-cont">
           <img
             src={RightArrow}

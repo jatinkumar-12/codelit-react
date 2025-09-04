@@ -1,5 +1,8 @@
 /* primary classes */
 
+.sub-project_section {
+}
+
 .sub-heading-primary {
   font-size: 1.2rem;
   font-weight: 600;
@@ -234,6 +237,10 @@ ul > li > span {
 /* second break point */
 
 @media screen and (width <= 740px) {
+  .sub-project_section {
+    margin-bottom: 6rem;
+  }
+
   .explanation-heading {
     font-size: 2.1rem;
   }
