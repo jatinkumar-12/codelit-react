@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codelit-react/static/css/main.2cf19899.css",
-    "main.js": "/codelit-react/static/js/main.e3efd421.js",
+    "main.css": "/codelit-react/static/css/main.a90a557a.css",
+    "main.js": "/codelit-react/static/js/main.4b3b216d.js",
     "static/js/453.80b71f9b.chunk.js": "/codelit-react/static/js/453.80b71f9b.chunk.js",
     "static/media/reel.mp4": "/codelit-react/static/media/reel.52b1b2e0011ac256ca3f.mp4",
     "static/media/employee.jpg": "/codelit-react/static/media/employee.0a7bbb168fb532518922.jpg",
@@ -21,12 +21,12 @@
     "static/media/Process-laptop.svg": "/codelit-react/static/media/Process-laptop.410317ebd22c618dd6b3ddb9cd2bd8ea.svg",
     "static/media/Process-phone.svg": "/codelit-react/static/media/Process-phone.9b1b7bd2b5079834b4b9e57b6f796931.svg",
     "index.html": "/codelit-react/index.html",
-    "main.2cf19899.css.map": "/codelit-react/static/css/main.2cf19899.css.map",
-    "main.e3efd421.js.map": "/codelit-react/static/js/main.e3efd421.js.map",
+    "main.a90a557a.css.map": "/codelit-react/static/css/main.a90a557a.css.map",
+    "main.4b3b216d.js.map": "/codelit-react/static/js/main.4b3b216d.js.map",
     "453.80b71f9b.chunk.js.map": "/codelit-react/static/js/453.80b71f9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cf19899.css",
-    "static/js/main.e3efd421.js"
+    "static/css/main.a90a557a.css",
+    "static/js/main.4b3b216d.js"
   ]
 }
