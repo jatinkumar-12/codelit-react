@@ -31,9 +31,17 @@ function Navbar() {
               Codelit
             </NavLink>
 
-            <NavLink to="/contact" className="nav__link">
+            {/* <NavLink to="/contact" className="nav__link">
               Contact
-            </NavLink>
+            </NavLink> */}
+
+            <a
+              className="nav__link"
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
+              target="_blank"
+            >
+              Contact
+            </a>
           </div>
 
           {/* Right Text */}
@@ -73,9 +81,15 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={toggleMenu}>
+            {/* <NavLink to="/contact" onClick={toggleMenu}>
               Contact
-            </NavLink>
+            </NavLink> */}
+            <a
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
+              target="_blank"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>

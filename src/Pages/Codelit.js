@@ -5,7 +5,9 @@ import "../styles/Codelit.css";
 
 import aboutImage from "../assets/secondary/about-image.jpg";
 import ourStoryImage from "../assets/secondary/our-story-image.jpg";
-import employeeImage from "../assets/secondary/employee.jpg";
+import employeeImage1 from "../assets/secondary/vipin.jpg";
+import employeeImage2 from "../assets/secondary/Jatin.png";
+import employeeImage3 from "../assets/secondary/Kanahyia.jpg";
 
 export default function Codelit() {
   return (
@@ -69,7 +71,7 @@ export default function Codelit() {
           <div className="about__employess-card-box">
             <div className="about__employee-card">
               <div className="about__employee-card-image">
-                <img src={employeeImage} alt="employees" />
+                <img src={employeeImage1} alt="employees" />
               </div>
               <h1>VIPIN KUMAR</h1>
               <p>(B.TECH, NIT KKR)</p>
@@ -80,7 +82,7 @@ export default function Codelit() {
             </div>
             <div className="about__employee-card">
               <div className="about__employee-card-image">
-                <img src={employeeImage} alt="employe" />
+                <img src={employeeImage2} alt="employe" />
               </div>
               <h1>JATIN KUMAR</h1>
               <p>(B.Sc, PT. JLN)</p>
@@ -91,7 +93,7 @@ export default function Codelit() {
             </div>
             <div className="about__employee-card">
               <div className="about__employee-card-image">
-                <img src={employeeImage} alt="employe" />
+                <img src={employeeImage3} alt="employe" />
               </div>
               <h1>KANHIYA SAINI</h1>
               <p>(B.Sc, PT. JLN)</p>

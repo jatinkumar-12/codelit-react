@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../styles/Footer.css";
 
 export default function Footer() {
@@ -59,10 +58,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="letsCollaborateSection">
-          <h2 className="footerLinkHeading">Let's Collaborate</h2>
-          <a href="/" className="footerlink">
-            vipinsingh@codelit.in
+        <div className="letsConnectSection" id="letsconnect">
+          <h2 className="footerLinkHeading">Let's Connect</h2>
+          <a
+            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
+            target="_blank"
+            className="footerlink"
+          >
+            vipinsinghjnv@gmail.com
           </a>
         </div>
 

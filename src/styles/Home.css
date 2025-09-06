@@ -48,10 +48,10 @@
   flex-flow: column nowrap;
 }
 
-.main__col:first-child {
+/* .main__col:first-child {
   justify-content: flex-end;
   align-items: flex-start;
-}
+} */
 
 .main__col-color-pera {
   color: var(--primary);
@@ -91,7 +91,7 @@
 }
 
 /* === video container section starts === */
-.video-container {
+/* .video-container {
   position: relative;
   width: fit-content;
   overflow: hidden;
@@ -104,10 +104,10 @@
   height: auto;
   display: block;
   background-color: rgb(3, 3, 3);
-}
+} */
 
 /* play button */
-.play-button {
+/* .play-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -126,13 +126,13 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   z-index: 2;
   transition: transform 0.2s ease;
-}
+} */
 
-.play-button:hover {
+/* .play-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
-}
+} */
 
-.play-button::after {
+/* .play-button::after {
   content: "";
   position: absolute;
   border: 4px solid var(--primary);
@@ -143,8 +143,8 @@
   left: 0;
   animation: pulse-ring 1.5s infinite;
   z-index: -1;
-}
-
+} */
+/* 
 @keyframes pulse-ring {
   0% {
     transform: scale(0.9);
@@ -157,10 +157,10 @@
   100% {
     opacity: 0;
   }
-}
+} */
 
 /* resize button */
-.resize-button {
+/* .resize-button {
   position: absolute;
   bottom: 10px;
   right: 10px;
@@ -177,10 +177,10 @@
 
 .resize-button:hover {
   background: var(--primary);
-}
+} */
 
 /* fullscreen overlay */
-.fullscreen-overlay {
+/* .fullscreen-overlay {
   position: fixed;
   inset: 0;
   background: rgba(10, 10, 10, 0.7);
@@ -200,7 +200,7 @@
 }
 
 /* close button */
-.close-button {
+/* .close-button {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -217,7 +217,7 @@
 
 .close-button:hover {
   transform: scale(1.1);
-}
+} */
 /* === video container section ends === */
 
 /* responsive */
@@ -234,15 +234,15 @@
     grid-template-rows: auto auto;
   }
 
-  .main__col:first-child {
+  /* .main__col:first-child {
     order: 2;
     justify-content: flex-start;
-  }
-
+  } */
+  /* 
   .reelText {
     display: none;
     visibility: hidden;
-  }
+  } */
 
   .main__col-color-pera {
     font-size: 1.1rem;
@@ -276,18 +276,17 @@
 
   .headingBox {
     margin: 1rem 0 var(--m-max);
-    height: 70vh;
   }
 
   section {
     padding: 2rem var(--pd-min-sm);
   }
-
+  /* 
   .video-container {
     width: 100%;
   }
 
   .video-container video {
     width: 100%;
-  }
+  } */
 }
