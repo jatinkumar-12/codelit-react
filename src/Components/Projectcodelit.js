@@ -17,14 +17,14 @@ export default function Projectcodelit() {
     <>
       <section className="sub-project_section">
         <div className="back-button-cont">
+          <Link to="/work" className="back-button">
           <img
             src={RightArrow}
             width="25"
             height="20"
             className="back-icon"
             alt="RightArrow"
-          />
-          <Link to="/work" className="back-button">
+          /> 
             back to projects
           </Link>
         </div>

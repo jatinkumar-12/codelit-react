@@ -38,12 +38,21 @@
   flex-direction: column;
 }
 
-.work__project-sm h2 {
+.work__project-sm .work_heading {
   font-size: 2rem;
   font-family: var(--secondayfont);
   margin-bottom: var(--m-min);
   color: var(--black);
   text-transform: capitalize;
+  text-decoration: underline transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  transition: text-decoration-color .3s ease;
+}
+
+.work__project-sm .work_heading:hover {
+  text-decoration-color: black;
+  cursor: pointer;
 }
 
 .work__project-sm p {
@@ -72,10 +81,15 @@
   border-radius: 8px;
 }
 
+.work__project-sm:nth-child(1):hover .work__project-sm-img {
+  transform: scale(1.01);
+}
+
 .work__project-sm-img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  transition: all .4s ease;
 }
 
 @media (max-width: 1200px) {

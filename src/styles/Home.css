@@ -53,6 +53,15 @@
   align-items: flex-start;
 } */
 
+.main__col:first-child {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.carousel {
+  width: 24rem;
+}
+
 .main__col-color-pera {
   color: var(--primary);
   font-size: 1.5rem;
@@ -82,7 +91,7 @@
 }
 
 .main__col:last-child > .main__col-pera {
-  margin-bottom: 6rem;
+  margin-bottom: 4.8rem;
 }
 
 .main__col:last-child {

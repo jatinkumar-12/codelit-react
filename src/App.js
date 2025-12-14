@@ -5,6 +5,8 @@ import Home from "./Pages/Home";
 import Work from "./Pages/Work";
 import Codlit from "./Pages/Codelit";
 import Contact from "./Pages/Contact";
+import GetinTouch from "./Pages/GetinTouch";
+
 import TitleManager from "./Components/Titlemanager";
 
 // Components
@@ -27,6 +29,7 @@ function App() {
           <Route element={<ScrollResetLayout />}>
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/getintouch" element={<GetinTouch />} />
             <Route path="/codelit" element={<Codlit />} />
             <Route path="/work/projectcodelit" element={<Projectcodelit />} />
             <Route path="/work/projectfeedbick" element={<Projectfeedbick />} />

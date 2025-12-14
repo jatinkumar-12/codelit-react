@@ -1,6 +1,6 @@
 import "../styles/Navbar.css";
 import React, { useState } from "react";
-import Logo from "../assets/main/Codelit_Logo.png";
+import Logo from "../assets/main/Codelit_Logo.svg";
 import { NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -31,17 +31,17 @@ function Navbar() {
               Codelit
             </NavLink>
 
-            {/* <NavLink to="/contact" className="nav__link">
-              Contact
-            </NavLink> */}
+            <NavLink to="/getintouch" className="nav__link">
+              Get In Touch
+            </NavLink>
 
-            <a
+            {/* <a
               className="nav__link"
               href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
               target="_blank"
             >
               Contact
-            </a>
+            </a> */}
           </div>
 
           {/* Right Text */}
@@ -81,15 +81,15 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            {/* <NavLink to="/contact" onClick={toggleMenu}>
-              Contact
-            </NavLink> */}
-            <a
+            <NavLink to="/getintouch" onClick={toggleMenu}>
+              Get In Touch
+            </NavLink>
+            {/* <a
               href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
               target="_blank"
             >
               Contact
-            </a>
+            </a> */}
           </li>
         </ul>
       </div>

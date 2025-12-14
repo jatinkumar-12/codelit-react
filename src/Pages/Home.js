@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 // import { useEffect, useRef, useState } from "react";
 // import videofile from "../assets/video/reel.mp4";
 
+import Carousel1 from "../assets/secondary/carousel1.jpg";
+import Carousel2 from "../assets/secondary/carousel2.jpg";
+
 export default function Home() {
   // const mainVideoRef = useRef(null);
   // const overlayVideoRef = useRef(null);
@@ -138,8 +141,8 @@ export default function Home() {
 
       <div className="main__row">
         {/* LEFT: Video */}
-        <div className="main__col">
-          {/* <p className="main__col-pera reelText">Watch Reel</p>
+        {/* <div className="main__col">
+          <p className="main__col-pera reelText">Watch Reel</p>
           <div className="video-container">
             <video
               ref={mainVideoRef}
@@ -164,7 +167,67 @@ export default function Home() {
             >
               ⤢
             </button>
-          </div> */}
+          </div>
+        </div> */}
+        <div className="main__col">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div className="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                className="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  src={Carousel1}
+                  className="d-block w-100"
+                  alt="Carousel1"
+                />
+              </div>
+              <div className="carousel-item">
+                <img
+                  src={Carousel2}
+                  className="d-block w-100"
+                  alt="Carousel2"
+                />
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
 
         {/* RIGHT: Copy */}

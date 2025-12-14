@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <section className="footer" id="Footer">
         <div className="footer__sections">
-          {/* <div className="footerLinkBox">
+          <div className="footerLinkBox">
             <h2 className="footerLinkHeading">REACH ME AT</h2>
             <a href="/" className="footerlink">
               email@codelit.in
@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="/" className="footerlink">
               Careers@codelit.in
             </a>
-          </div> */}
+          </div>
           <div className="footerLinkBox">
             <h2 className="footerLinkHeading">SERVICES</h2>
             <a href="/" className="footerlink">
@@ -39,7 +39,7 @@ export default function Footer() {
               Video Editing
             </a>
           </div>
-          <div className="footerLinkBox">
+          {/* <div className="footerLinkBox">
             <h2 className="footerLinkHeading">FOLLOW US ON</h2>
             <a href="/" className="footerlink">
               Instagram
@@ -50,7 +50,7 @@ export default function Footer() {
             <a href="/" className="footerlink">
               Linkedin
             </a>
-          </div>
+          </div> */}
           <div className="footerLinkBox sm-hide">
             <a onClick={scrollToTop} className="arrow-circle">
               <span className="arrow-up">↑</span>
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="letsConnectSection" id="letsconnect">
+        {/* <div className="letsConnectSection" id="letsconnect">
           <h2 className="footerLinkHeading">Let's Connect</h2>
           <a
             href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=vipinsinghjnv@gmail.com"
@@ -67,7 +67,7 @@ export default function Footer() {
           >
             vipinsinghjnv@gmail.com
           </a>
-        </div>
+        </div> */}
 
         <p className="pera">© CodeLit 2025</p>
       </section>

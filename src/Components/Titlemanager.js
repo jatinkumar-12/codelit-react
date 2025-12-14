@@ -18,6 +18,9 @@ export default function TitleManager() {
       case "/codelit":
         document.title = "Codelit | Codelit";
         break;
+      case "/getintouch":
+        document.title = "Codelit | Get In Touch";
+        break;
       case "/work/projectcodelit":
         document.title = "Codelit | Project Codelit";
         break;

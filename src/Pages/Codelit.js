@@ -5,11 +5,11 @@ import "../styles/Codelit.css";
 
 import aboutImage from "../assets/secondary/about-image.jpg";
 import ourStoryImage from "../assets/secondary/our-story-image.jpg";
-import employeeImage1 from "../assets/secondary/vipin.jpg";
+import employeeImage1 from "../assets/secondary/vipin.png";
 import employeeImage2 from "../assets/secondary/Jatin.png";
 import employeeImage3 from "../assets/secondary/Kanahyia.jpg";
 
-export default function Codelit() {
+export default function Codelit() { 
   return (
     <>
       <section className="about">
@@ -18,7 +18,7 @@ export default function Codelit() {
           BOLD IDEAS. <br />
           STRONG VISUALS.
         </h1>
-        <div className="about__designbox"></div>
+        {/* <div className="about__designbox"></div> */}
         <p className="pera">Our Moto</p>
         <h2 className="about__small-heading first-heading">
           DESIGN, BUILD & EDUCATE
@@ -161,8 +161,8 @@ export default function Codelit() {
           </p>
 
           <div className="button-Container">
-            <button className="about__btn">Start learning</button>
-            <button className="about__btn">Work with us</button>
+            {/* <button className="about__btn">Start learning</button>
+            <button className="about__btn">Work with us</button> */}
           </div>
         </div>
       </section>
