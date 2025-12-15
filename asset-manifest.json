@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/codelit-react/static/css/main.f2597092.css",
-    "main.js": "/codelit-react/static/js/main.9f156dc5.js",
+    "main.css": "/codelit-react/static/css/main.bb2ccbf4.css",
+    "main.js": "/codelit-react/static/js/main.81a69174.js",
     "static/js/453.80b71f9b.chunk.js": "/codelit-react/static/js/453.80b71f9b.chunk.js",
+    "static/media/carousel2.jpg": "/codelit-react/static/media/carousel2.95348fb79dbdac32fe2d.jpg",
+    "static/media/carousel1.jpg": "/codelit-react/static/media/carousel1.2d8cc460a9df1573939c.jpg",
     "static/media/High_fi.png": "/codelit-react/static/media/High_fi.0d32e171e1bf068db242.png",
+    "static/media/vipin.png": "/codelit-react/static/media/vipin.ce61b84d314a86db8868.png",
     "static/media/about-image.jpg": "/codelit-react/static/media/about-image.1f12f4e44a7c7c5b91d0.jpg",
     "static/media/our-story-image.jpg": "/codelit-react/static/media/our-story-image.a9cc809b185693635dec.jpg",
     "static/media/persona1.png": "/codelit-react/static/media/persona1.4e778ee5f17b0b8c5f4e.png",
@@ -16,18 +19,18 @@
     "static/media/Low_fi.png": "/codelit-react/static/media/Low_fi.bc729339ba8cea203357.png",
     "static/media/project-codelit.png": "/codelit-react/static/media/project-codelit.c64cd35feb16a6030c31.png",
     "static/media/feedbick-project.png": "/codelit-react/static/media/feedbick-project.a225d0a267cbfdec24e6.png",
-    "static/media/vipin.jpg": "/codelit-react/static/media/vipin.224a2bb73a4ac22d09af.jpg",
+    "static/media/getintouchimg.svg": "/codelit-react/static/media/getintouchimg.b6ae7a9be684ccb47855f7c08f4c0454.svg",
     "static/media/Kanahyia.jpg": "/codelit-react/static/media/Kanahyia.7a25c29b5d3cedc2f9c0.jpg",
-    "static/media/Codelit_Logo.png": "/codelit-react/static/media/Codelit_Logo.c1af65492acbd960d503.png",
-    "static/media/Process-laptop.svg": "/codelit-react/static/media/Process-laptop.410317ebd22c618dd6b3ddb9cd2bd8ea.svg",
-    "static/media/Process-phone.svg": "/codelit-react/static/media/Process-phone.9b1b7bd2b5079834b4b9e57b6f796931.svg",
+    "static/media/Process-laptop.svg": "/codelit-react/static/media/Process-laptop.52eb92693235f3eb0a16e34a345d4f53.svg",
+    "static/media/Process-phone.svg": "/codelit-react/static/media/Process-phone.d7e3ad9be2151c410ff180fec047b034.svg",
+    "static/media/Codelit_Logo.svg": "/codelit-react/static/media/Codelit_Logo.229206767c813cd1abafb395e739608c.svg",
     "index.html": "/codelit-react/index.html",
-    "main.f2597092.css.map": "/codelit-react/static/css/main.f2597092.css.map",
-    "main.9f156dc5.js.map": "/codelit-react/static/js/main.9f156dc5.js.map",
+    "main.bb2ccbf4.css.map": "/codelit-react/static/css/main.bb2ccbf4.css.map",
+    "main.81a69174.js.map": "/codelit-react/static/js/main.81a69174.js.map",
     "453.80b71f9b.chunk.js.map": "/codelit-react/static/js/453.80b71f9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2597092.css",
-    "static/js/main.9f156dc5.js"
+    "static/css/main.bb2ccbf4.css",
+    "static/js/main.81a69174.js"
   ]
 }
