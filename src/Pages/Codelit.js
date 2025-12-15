@@ -3,11 +3,11 @@ import "../styles/Codelit.css";
 
 // import images
 
-import aboutImage from "../assets/secondary/about-image.jpg";
+import aboutImage from "../assets/secondary/about-image2.jpg";
 import ourStoryImage from "../assets/secondary/our-story-image.jpg";
 import employeeImage1 from "../assets/secondary/vipin.png";
-import employeeImage2 from "../assets/secondary/Jatin.png";
-import employeeImage3 from "../assets/secondary/Kanahyia.jpg";
+import employeeImage2 from "../assets/secondary/jatin2.jpg";
+import employeeImage3 from "../assets/secondary/Kanhaiya.png";
 
 export default function Codelit() { 
   return (

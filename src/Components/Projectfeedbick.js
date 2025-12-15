@@ -18,6 +18,7 @@ export default function Projectfeedbick() {
     <>
       <section className="sub-project_section">
         <div className="back-button-cont">
+          <Link to="/Work" className="back-button">
           <img
             src={RightArrow}
             width="25"
@@ -25,7 +26,6 @@ export default function Projectfeedbick() {
             className="back-icon"
             alt="RightArrow"
           />
-          <Link to="/Work" className="back-button">
             back to projects
           </Link>
         </div>
